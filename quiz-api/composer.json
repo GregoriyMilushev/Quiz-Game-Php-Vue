@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": "^8.0.28",
+        "vlucas/phpdotenv": "^5.5",
+        "bramus/router": "^1.6"
+    }
+}
