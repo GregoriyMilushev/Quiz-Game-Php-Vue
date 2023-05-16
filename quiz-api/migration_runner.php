@@ -21,7 +21,7 @@ function runMigrations($pdo) {
     new CreateQuotesTable($pdo, $tableNames[0])
   ];
   
-  createMigrationsTable($pdo); // Create the migrations table if it does not exis
+  createMigrationsTable($pdo); // Create the migrations table if it does not exist
 
   $executedMigrations = [];
   
